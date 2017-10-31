@@ -12,7 +12,9 @@ function setDate() {
   secondsHand.style.transform = `rotate(${secondsDegrees}deg)`;
   minsHand.style.transform = `rotate(${minutesDegrees}deg)`;
   hoursHand.style.transform = `rotate(${hoursDegrees}deg)`;
+
   // those statements eliminate "rewinding" of the clock's hands transition degrees
+  
   if(secondsDegrees == 90){
     secondsHand.style.transition = `none`;
   }
