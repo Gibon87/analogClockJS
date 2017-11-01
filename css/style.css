@@ -5,7 +5,7 @@
 }
 html {
   background: url(https://cdn.pixabay.com/photo/2016/01/22/18/59/background-1156435_960_720.png);
-  /* === if You prefer normal background color, just uncommnet that, and commnet backgroung who are above :) ==
+  /* === if You prefer normal background color, just uncommnet that, and comment backgroung who are above :) ==
   background-color: #130c20; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,6 @@ body {
   flex: 1;
   font-size: 2em;
   min-height: 100vh;
-
 }
 .clock {
   border: 8px solid #902ff2;
@@ -41,13 +40,30 @@ body {
   transform: translateY(-3px);
 }
 .hand {
-  background: white;
-  height: 6px;
-  position: absolute;
-  top:50%;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.5, 1);
+}
+.hour-hand {
+  background: #EFEFEF;
+  height: 4px;
+  left: 10%;
+  position: absolute;
+  top:50%;
+  width: 40%;
+}
+.min-hand {
+  background: #EFEFEF;
+  height: 4px;
+  position: absolute;
+  top:50%;
+  width: 50%;
+}
+.second-hand {
+  background: #902ff2;
+  height: 4px;
+  position: absolute;
+  top:50%;
   width: 50%;
 }
