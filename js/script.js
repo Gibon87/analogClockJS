@@ -6,9 +6,9 @@ function setDate() {
   const seconds = now.getSeconds();
   const minutes = now.getMinutes();
   const hours = now.getHours();
-  const secondsDegrees = ((seconds / 60) * 360) + 90; // obliczanie sekund
-  const minutesDegrees = ((minutes / 60) * 360) + 90; // obliczanie minut
-  const hoursDegrees = ((hours / 12) * 360) + 90; // obliczanie godzin
+  const secondsDegrees = ((seconds / 60) * 360) + 90; // countingseconds
+  const minutesDegrees = ((minutes / 60) * 360) + 90; // counting munutes
+  const hoursDegrees = ((hours / 12) * 360) + 90; // counting hours
   secondsHand.style.transform = `rotate(${secondsDegrees}deg)`;
   minsHand.style.transform = `rotate(${minutesDegrees}deg)`;
   hoursHand.style.transform = `rotate(${hoursDegrees}deg)`;
