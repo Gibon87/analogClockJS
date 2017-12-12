@@ -1,6 +1,7 @@
 <h1>Oh wait... yep that's a Clock! :)</h1>
 
-<p> Hey, I made a simple clock App, made on JavaScript 30 challenge, by Wes Bos;) </p>
+<p> Hey, I made a simple clock App.<br>
+The App was made on JavaScript 30 challenge, by Wes Bos;) </p>
 
 <h2>How to use: </h2>
 <ol>
