@@ -4,20 +4,20 @@
   padding: 0;
 }
 html {
-  background: url(https://cdn.pixabay.com/photo/2016/01/22/18/59/background-1156435_960_720.png);
-  /* === if You prefer normal background color, just uncommnet that, and comment backgroung who are above :) ==
-  background-color: #130c20; */
-  background-repeat: no-repeat;
-  background-size: cover;
   font-size: 12px;
-  text-align: center;
 }
 body {
   align-items: center;
+  background-image: url('../img/1.png');
+  /* === if You prefer picture background color, just comment image and uncommnet what is below, :) == */
+  /* background-color: #130c20; */
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex: 1;
   font-size: 2em;
   min-height: 100vh;
+  text-align: center;
 }
 .clock {
   border: 8px solid #902ff2;
