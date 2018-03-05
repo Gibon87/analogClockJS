@@ -3,6 +3,8 @@
 <p> Hey, I made a simple clock App.<br>
 The App was made on JavaScript 30 challenge, by Wes Bos;) </p>
 
+Demo: https://gibon87.github.io/analogClockJS/
+
 <h2>How to use: </h2>
 <ol>
   <li>Just lauch it.</li>
